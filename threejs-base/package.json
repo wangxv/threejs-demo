@@ -1,0 +1,31 @@
+{
+  "name": "threejs-demo",
+  "version": "1.0.0",
+  "description": "three.js的小demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangxv/threejs-demo.git"
+  },
+  "keywords": [
+    "three.js"
+  ],
+  "author": "wangxv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangxv/threejs-demo/issues"
+  },
+  "homepage": "https://github.com/wangxv/threejs-demo#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "gsap": "^3.11.4",
+    "three": "^0.149.0"
+  }
+}
